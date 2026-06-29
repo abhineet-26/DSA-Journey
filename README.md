@@ -6,7 +6,6 @@ A centralized repository documenting my algorithmic depth, data structure profic
 
 ## 📊 Platform Sync Overview
 - **LeetCode Log:** Bulk-synced (historical data) + live tracking via GitHub Actions.
-- **GeeksforGeeks Log:** Automated topic-wise tracking for active problems.
 - **Structured Roadmap:** Powered by **Striver's A2Z DSA Sheet**.
 
 ---
@@ -16,7 +15,6 @@ A centralized repository documenting my algorithmic depth, data structure profic
 The codebase is split into two primary components to maintain a clean tracking environment:
 
 *   `/leetcode-solutions/` — Auto-generated folders containing space/time optimized solutions and platform constraints.
-*   `/gfg-solutions/` — Active tracking folder focusing on classical, company-specific interview problems.
 
 ---
 
