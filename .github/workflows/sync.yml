@@ -14,8 +14,9 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Run LeetCode Sync
-        uses: joshcai/leetcode-sync@v1.7
+      - name: Run Patched LeetCode Sync
+        # Swapping from @v1.7 to @master to fetch the active community formatting patch
+        uses: joshcai/leetcode-sync@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
